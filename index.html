@@ -141,10 +141,15 @@ html,body{
 @keyframes slideDown{from{transform:translateY(-16px);opacity:0}to{transform:translateY(0);opacity:1}}
 
 /* SLIDER */
-.slider-wrap{
-  flex:1;position:relative;border-radius:20px;overflow:hidden;
-  box-shadow:0 6px 28px rgba(14,165,233,.2);
-  animation:fadeIn .6s .1s ease both;min-height:0;
+.slider-wrap {
+  flex: 1;
+  max-height: 60vh; /* Ini kunci agar foto memendek dan tombol naik */
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 28px rgba(14, 165, 233, .2);
+  animation: fadeIn .6s .1s ease both;
+  min-height: 0;
 }
 @keyframes fadeIn{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:scale(1)}}
 .slider-track{display:flex;height:100%;transition:transform .4s cubic-bezier(.4,0,.2,1);}
@@ -331,15 +336,15 @@ html,body{
   <nav class="nav-buttons" aria-label="Menu">
 
   <a class="nav-btn nb-sky" 
-     href="https://script.google.com/macros/s/AKfycbxtVstuLMKCsJXJlrt9JHRWg9d19vhnONXx9eLcOeERi2CvNXn6SE33e7_OK6352T0/exec" 
+      href="https://script.google.com/macros/s/AKfycbxtVstuLMKCsJXJlrt9JHRWg9d19vhnONXx9eLcOeERi2CvNXn6SE33e7_OK6352T0/exec" 
      target="_blank" rel="noopener">
     <span class="nb-ico">🧺</span><span>Layanan</span>
   </a>
 
   <a class="nav-btn nb-teal" 
-     href="https://script.google.com/.../exec?page=harga" 
+     href="https://SemuaAdaKlik.github.io/" 
      target="_blank" rel="noopener">
-    <span class="nb-ico">💰</span><span>Harga</span>
+    <span class="nb-ico">💰</span><span>Belanja Yuukk...</span>
   </a>
 
   <a class="nav-btn nb-amber" 
@@ -355,7 +360,7 @@ html,body{
   </a>
 
   <a class="nav-btn nb-wa" 
-     href="https://wa.me/6281234567890" 
+     href="https://wa.me/6281328267973?text=Halo+Wisma+Laundry,+saya+mau+bertanya" 
      target="_blank" rel="noopener">
     <span class="nb-ico">💬</span><span>Chat WA</span>
   </a>
@@ -422,7 +427,7 @@ const SLIDES = [
     photo      : 'assets/images/slides/dry-cleaning.jpg',
     fallback   : '👔',
     fallbackSub: 'Dry Cleaning',
-    hasGallery : false, galleryIdx: -1,
+    hasGallery : true, galleryIdx: -1,
     hasVideo   : true,
     videoUrl   : 'https://www.youtube.com/embed/GANTI_ID_VIDEO',
   },
