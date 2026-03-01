@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+<head>
+<!-- ═══════════════════════════════════════════
+     SEO & META TAGS — Edit sesuai data asli
+     ═══════════════════════════════════════════ -->
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<!-- PRIMARY SEO -->
+<title>Wisma Laundry – Cuci Setrika Bersih, Wangi & Tepat Waktu</title>
+<meta name="description" content="Wisma Laundry melayani cuci kiloan, cuci setrika, dry cleaning, dan antar jemput. Bersih sempurna, wangi tahan lama. Harga mulai Rp 5.000/kg. Buka setiap hari 07.00–21.00."/>
+<meta name="keywords" content="wisma laundry, laundry kiloan, cuci setrika, dry cleaning, laundry ekspres, antar jemput laundry, laundry murah, laundry terdekat"/>
+<meta name="author" content="Wisma Laundry"/>
+<meta name="robots" content="index, follow"/>
+<meta name="theme-color" content="#0ea5e9"/>
+<link rel="canonical" href="https://wisma-laundry.com/"/>
+
+<!-- GEO (sesuaikan lokasi) -->
+<meta name="geo.region" content="ID-YO"/>
+<meta name="geo.placename" content="Yogyakarta, Indonesia"/>
+
+<!-- OPEN GRAPH (Facebook / WhatsApp preview) -->
+<meta property="og:type" content="business.business"/>
+<meta property="og:title" content="Wisma Laundry – Bersih, Wangi & Tepat Waktu"/>
+<meta property="og:description" content="Layanan cuci kiloan, setrika, dry cleaning & antar jemput. Harga terjangkau, hasil memuaskan. Buka tiap hari 07.00–21.00."/>
+<meta property="og:url" content="https://wisma-laundry.com/"/>
+<meta property="og:image" content="assets/images/seo/og-image.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="Wisma Laundry – Layanan Cuci Profesional"/>
+<meta property="og:locale" content="id_ID"/>
+<meta property="og:site_name" content="Wisma Laundry"/>
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Wisma Laundry – Bersih, Wangi & Tepat Waktu"/>
+<meta name="twitter:description" content="Cuci kiloan, setrika, dry cleaning & antar jemput. Buka tiap hari 07.00–21.00."/>
+<meta name="twitter:image" content="assets/images/seo/og-image.jpg"/>
+
+<!-- FAVICON -->
+<link rel="icon" type="image/png" href="assets/images/seo/favicon.png"/>
+<link rel="apple-touch-icon" href="assets/images/seo/apple-touch-icon.png"/>
+<link rel="manifest" href="manifest.json"/>
+
+<!-- STRUCTURED DATA (JSON-LD) — Ubah sesuai data bisnis -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://wisma-laundry.com/",
+  "name": "Wisma Laundry",
+  "description": "Layanan cuci kiloan, cuci setrika, dry cleaning, dan antar jemput. Bersih, wangi, tepat waktu.",
+  "url": "https://wisma-laundry.com/",
+  "telephone": "+6281234567890",
+  "priceRange": "Rp 5.000 – Rp 25.000/kg",
+  "image": "assets/images/seo/og-image.jpg",
+  "logo": "assets/images/seo/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Contoh No. 1",
+    "addressLocality": "Yogyakarta",
+    "addressRegion": "DI Yogyakarta",
+    "postalCode": "55000",
+    "addressCountry": "ID"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": -7.797068, "longitude": 110.370529 },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "07:00", "closes": "21:00"
+  }],
+  "sameAs": ["https://wa.me/6281234567890","https://instagram.com/wisma.laundry"]
+}
+</script>
+
+<!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+
+<style>
+:root{
+  --sky:#0ea5e9;--sky2:#38bdf8;--sky3:#bae6fd;
+  --foam:#e0f7fa;--teal:#0d9488;--teal2:#14b8a6;
+  --navy:#0c4a6e;--txt:#1e3a5f;--txt2:#4a7fa5;--accent:#f59e0b;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html,body{
+  font-family:'Nunito',sans-serif;
+  background:linear-gradient(160deg,#e0f7fa 0%,#bae6fd 40%,#e0f2fe 100%);
+  height:100vh;overflow:hidden;color:var(--txt);position:relative;
+}
+
+/* BUBBLES BG */
+.bg-bubbles{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;}
+.bubble{position:absolute;border-radius:50%;
+  background:radial-gradient(circle at 35% 35%,rgba(255,255,255,.55),rgba(14,165,233,.12));
+  border:1.5px solid rgba(255,255,255,.5);animation:floatBubble linear infinite;}
+.bubble:nth-child(1){width:60px;height:60px;left:8%;animation-duration:9s;bottom:-70px;}
+.bubble:nth-child(2){width:36px;height:36px;left:22%;animation-duration:12s;animation-delay:2s;bottom:-50px;}
+.bubble:nth-child(3){width:80px;height:80px;left:55%;animation-duration:10s;animation-delay:1s;bottom:-90px;}
+.bubble:nth-child(4){width:24px;height:24px;left:75%;animation-duration:8s;animation-delay:3s;bottom:-40px;}
+.bubble:nth-child(5){width:50px;height:50px;left:88%;animation-duration:11s;animation-delay:.5s;bottom:-60px;}
+.bubble:nth-child(6){width:40px;height:40px;left:40%;animation-duration:14s;animation-delay:4s;bottom:-50px;}
+@keyframes floatBubble{
+  0%{transform:translateY(0) scale(1);opacity:.7;}
+  50%{transform:translateY(-50vh) scale(1.05);opacity:.5;}
+  100%{transform:translateY(-110vh) scale(.9);opacity:0;}
+}
+.wave-top{position:fixed;top:0;left:0;right:0;height:5px;
+  background:linear-gradient(90deg,var(--sky),var(--teal2),var(--sky2),var(--teal));
+  z-index:200;background-size:200% 100%;animation:waveBg 4s linear infinite;}
+@keyframes waveBg{0%{background-position:0 0}100%{background-position:200% 0}}
+
+/* PAGE */
+.page{
+  position:relative;z-index:10;display:flex;flex-direction:column;
+  height:100vh;max-width:430px;margin:0 auto;
+  padding:10px 12px;gap:8px;
+}
+
+/* HEADER */
+.header{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  padding:10px 14px;
+  background:linear-gradient(135deg,rgba(255,255,255,.85),rgba(224,247,250,.9));
+  border-radius:20px;
+  box-shadow:0 4px 20px rgba(14,165,233,.15),inset 0 1px 0 rgba(255,255,255,.9);
+  border:1.5px solid rgba(255,255,255,.7);animation:slideDown .5s ease both;
+}
+.header-icon{font-size:2rem;animation:wobble 6s ease-in-out infinite;filter:drop-shadow(0 2px 6px rgba(14,165,233,.4));}
+@keyframes wobble{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(8deg)}}
+.header-title{
+  font-family:'Fredoka One',cursive;font-size:1.65rem;line-height:1;
+  background:linear-gradient(135deg,var(--sky),var(--teal));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+}
+.header-sub{font-size:.72rem;font-weight:700;color:var(--txt2);letter-spacing:.08em;text-transform:uppercase;margin-top:1px;}
+@keyframes slideDown{from{transform:translateY(-16px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+/* SLIDER */
+.slider-wrap{
+  flex:1;position:relative;border-radius:20px;overflow:hidden;
+  box-shadow:0 6px 28px rgba(14,165,233,.2);
+  animation:fadeIn .6s .1s ease both;min-height:0;
+}
+@keyframes fadeIn{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:scale(1)}}
+.slider-track{display:flex;height:100%;transition:transform .4s cubic-bezier(.4,0,.2,1);}
+.slide{flex:0 0 100%;height:100%;position:relative;overflow:hidden;}
+
+/* FOTO + FALLBACK — kunci logika foto/emoji */
+.slide-media{width:100%;height:100%;position:relative;}
+.slide-photo{
+  width:100%;height:100%;object-fit:cover;
+  position:absolute;inset:0;z-index:2;display:block;
+}
+.slide-fallback{
+  width:100%;height:100%;position:absolute;inset:0;z-index:1;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:10px;font-size:5rem;
+  background:linear-gradient(135deg,#e0f7fa,#bae6fd);
+}
+.slide-fallback span{font-size:.9rem;font-weight:800;color:var(--sky);font-family:'Fredoka One',cursive;}
+
+.slide-overlay{
+  position:absolute;inset:0;z-index:5;
+  background:linear-gradient(to top,rgba(12,74,110,.65) 0%,transparent 55%);
+  display:flex;flex-direction:column;justify-content:flex-end;padding:14px 16px;
+}
+.slide-title{font-family:'Fredoka One',cursive;font-size:1.1rem;color:white;text-shadow:0 2px 8px rgba(0,0,0,.4);}
+.slide-desc{font-size:.74rem;color:rgba(255,255,255,.8);font-weight:600;margin-top:2px;}
+
+.slide-badges{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:6px;z-index:10;}
+.sbadge{
+  display:flex;align-items:center;gap:5px;padding:6px 12px;border-radius:100px;
+  font-size:.72rem;font-weight:800;cursor:pointer;border:none;
+  backdrop-filter:blur(8px);transition:all .2s;box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+.sbadge:hover{transform:scale(1.06);}
+.sbadge-gallery{background:rgba(14,165,233,.88);color:white;}
+.sbadge-video{background:rgba(13,148,136,.88);color:white;}
+
+.dots{position:absolute;bottom:46px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:10;}
+.dot{width:6px;height:6px;border-radius:3px;background:rgba(255,255,255,.5);transition:all .3s;cursor:pointer;}
+.dot.active{width:18px;background:white;}
+.slider-prev,.slider-next{
+  position:absolute;top:50%;transform:translateY(-50%);
+  width:36px;height:36px;border-radius:50%;
+  background:rgba(255,255,255,.75);backdrop-filter:blur(8px);
+  border:1.5px solid rgba(255,255,255,.9);color:var(--sky);
+  font-size:1.1rem;font-weight:900;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 3px 10px rgba(14,165,233,.2);transition:all .2s;z-index:10;
+}
+.slider-prev{left:10px;}.slider-next{right:10px;}
+.slider-prev:hover,.slider-next:hover{background:var(--sky);color:white;transform:translateY(-50%) scale(1.08);}
+
+/* TICKER */
+.ticker-wrap{
+  overflow:hidden;background:linear-gradient(135deg,var(--sky),var(--teal));
+  border-radius:12px;padding:7px 0;box-shadow:0 3px 12px rgba(14,165,233,.25);
+  animation:fadeIn .6s .2s ease both;
+}
+.ticker-inner{
+  display:flex;white-space:nowrap;
+  animation:ticker 22s linear infinite;
+  font-size:.78rem;font-weight:800;color:white;
+}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* NAV */
+.nav-buttons{display:flex;gap:7px;animation:slideUp .5s .3s ease both;}
+@keyframes slideUp{from{transform:translateY(14px);opacity:0}to{transform:translateY(0);opacity:1}}
+.nav-btn{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;
+  padding:9px 4px;border:none;border-radius:14px;
+  font-family:'Nunito',sans-serif;font-size:.64rem;font-weight:800;
+  cursor:pointer;transition:all .2s;text-decoration:none;
+  box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+.nav-btn .nb-ico{font-size:1.2rem;}
+.nav-btn:hover{transform:translateY(-3px);box-shadow:0 6px 18px rgba(0,0,0,.15);}
+.nav-btn:active{transform:scale(.96);}
+.nb-sky{background:linear-gradient(135deg,#0ea5e9,#0284c7);color:white;}
+.nb-teal{background:linear-gradient(135deg,#14b8a6,#0d9488);color:white;}
+.nb-amber{background:linear-gradient(135deg,#f59e0b,#d97706);color:white;}
+.nb-green{background:linear-gradient(135deg,#22c55e,#16a34a);color:white;}
+.nb-wa{background:linear-gradient(135deg,#25d366,#128c7e);color:white;}
+
+/* GALLERY MODAL */
+.modal-overlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(12,74,110,.75);backdrop-filter:blur(8px);
+  z-index:500;align-items:flex-end;justify-content:center;
+}
+.modal-overlay.open{display:flex;}
+.modal-box{
+  background:linear-gradient(160deg,#f0f9ff,white);
+  border-radius:24px 24px 0 0;
+  width:100%;max-width:430px;max-height:82vh;overflow-y:auto;
+  padding:16px 14px 28px;animation:mUp .3s ease;
+}
+@keyframes mUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+.modal-handle{width:40px;height:4px;background:var(--sky3);border-radius:4px;margin:0 auto 14px;}
+.modal-title{font-family:'Fredoka One',cursive;font-size:1.15rem;color:var(--sky);margin-bottom:12px;text-align:center;}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;}
+.gal-item{
+  border-radius:10px;overflow:hidden;aspect-ratio:1;cursor:pointer;position:relative;
+  background:linear-gradient(135deg,var(--foam),var(--sky3));
+  display:flex;align-items:center;justify-content:center;
+  font-size:2.2rem;transition:transform .2s;
+}
+.gal-item:hover{transform:scale(1.04);}
+.gal-item img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;z-index:2;display:block;}
+.gal-fallback{z-index:1;position:relative;}
+.modal-close-btn{
+  display:block;width:100%;margin-top:14px;padding:11px;border:none;border-radius:12px;
+  background:var(--sky);color:white;font:700 14px 'Nunito',sans-serif;cursor:pointer;
+}
+
+/* LIGHTBOX */
+.lightbox{
+  display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);
+  z-index:600;align-items:center;justify-content:center;padding:20px;
+}
+.lightbox.open{display:flex;}
+.lb-inner{max-width:400px;width:100%;position:relative;animation:lbIn .25s ease;}
+@keyframes lbIn{from{transform:scale(.88);opacity:0}to{transform:scale(1);opacity:1}}
+.lb-inner img{width:100%;border-radius:16px;display:block;max-height:70vh;object-fit:contain;}
+.lb-inner iframe{width:100%;height:56vw;max-height:260px;border:none;border-radius:16px;display:block;}
+.lb-close{
+  position:absolute;top:-14px;right:-10px;width:36px;height:36px;border-radius:50%;
+  background:var(--accent);color:white;border:none;font-size:1.1rem;font-weight:900;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 3px 12px rgba(0,0,0,.3);
+}
+
+#toast{
+  position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:var(--navy);color:white;padding:9px 20px;border-radius:100px;
+  font-size:.8rem;font-weight:700;z-index:999;opacity:0;transition:all .3s;
+  white-space:nowrap;pointer-events:none;
+}
+
+@media(min-height:800px){
+  .page{padding:14px 14px;gap:10px;}
+  .header-title{font-size:1.8rem;}
+  .nav-btn{padding:11px 4px;font-size:.68rem;}
+  .nav-btn .nb-ico{font-size:1.35rem;}
+}
+@media(max-height:640px){
+  .header{padding:7px 12px;}
+  .header-title{font-size:1.4rem;}
+  .header-icon{font-size:1.6rem;}
+  .nav-btn{padding:7px 3px;}
+  .nav-btn .nb-ico{font-size:1rem;}
+}
+</style>
+</head>
+<body>
+
+<div class="wave-top"></div>
+<div class="bg-bubbles">
+  <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+  <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+</div>
+
+<main class="page" role="main">
+
+  <header class="header" role="banner">
+    <div class="header-icon" aria-hidden="true">🫧</div>
+    <div>
+      <h1 class="header-title">Wisma Laundry</h1>
+      <p class="header-sub">Bersih · Wangi · Tepat Waktu</p>
+    </div>
+  </header>
+
+  <section class="slider-wrap" id="sliderWrap" aria-label="Foto Layanan">
+    <div class="slider-track" id="sliderTrack" role="list"></div>
+    <div class="dots" id="dots" role="tablist"></div>
+    <button class="slider-prev" onclick="prevSlide()" aria-label="Sebelumnya">‹</button>
+    <button class="slider-next" onclick="nextSlide()" aria-label="Berikutnya">›</button>
+  </section>
+
+  <div class="ticker-wrap" role="marquee" aria-label="Info Wisma Laundry">
+    <div class="ticker-inner" id="tickerInner"></div>
+  </div>
+
+  <nav class="nav-buttons" aria-label="Menu">
+
+  <a class="nav-btn nb-sky" 
+     href="https://script.google.com/macros/s/AKfycbxtVstuLMKCsJXJlrt9JHRWg9d19vhnONXx9eLcOeERi2CvNXn6SE33e7_OK6352T0/exec" 
+     target="_blank" rel="noopener">
+    <span class="nb-ico">🧺</span><span>Layanan</span>
+  </a>
+
+  <a class="nav-btn nb-teal" 
+     href="https://script.google.com/.../exec?page=harga" 
+     target="_blank" rel="noopener">
+    <span class="nb-ico">💰</span><span>Harga</span>
+  </a>
+
+  <a class="nav-btn nb-amber" 
+     href="https://script.google.com/.../exec?page=order-list" 
+     target="_blank" rel="noopener">
+    <span class="nb-ico">📦</span><span>Status</span>
+  </a>
+
+  <a class="nav-btn nb-green" 
+     href="https://maps.google.com/?q=Wisma+Laundry" 
+     target="_blank" rel="noopener">
+    <span class="nb-ico">📍</span><span>Lokasi</span>
+  </a>
+
+  <a class="nav-btn nb-wa" 
+     href="https://wa.me/6281234567890" 
+     target="_blank" rel="noopener">
+    <span class="nb-ico">💬</span><span>Chat WA</span>
+  </a>
+
+</nav>
+
+</main>
+
+<!-- GALLERY MODAL -->
+<div class="modal-overlay" id="galleryModal" role="dialog" aria-modal="true" onclick="if(event.target===this)closeGallery()">
+  <div class="modal-box">
+    <div class="modal-handle" aria-hidden="true"></div>
+    <h2 class="modal-title" id="galleryTitle">📷 Galeri</h2>
+    <div class="gallery-grid" id="galleryGrid" role="list"></div>
+    <button class="modal-close-btn" onclick="closeGallery()">✕ Tutup</button>
+  </div>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" onclick="if(event.target===this)closeLB()">
+  <div class="lb-inner">
+    <button class="lb-close" onclick="closeLB()" aria-label="Tutup">✕</button>
+    <div id="lbContent"></div>
+  </div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ════════════════════════════════════════════════════════════
+   ✏️  EDIT BAGIAN INI UNTUK KUSTOMISASI KONTEN
+   ════════════════════════════════════════════════════════════
+
+   ATURAN FOTO:
+   • photo: 'assets/images/slides/nama-file.jpg'
+     → Jika file ADA  : tampil foto asli
+     → Jika file TIDAK ADA / gagal load : otomatis tampil emoji (fallback)
+   • Kosongkan photo:'' jika belum punya foto sama sekali
+   ════════════════════════════════════════════════════════════ */
+
+const SLIDES = [
+  {
+    title      : 'Cuci & Setrika Kiloan',
+    desc       : 'Bersih sempurna, wangi tahan lama',
+    photo      : 'assets/images/slides/cuci-setrika.jpg',   // ← taruh foto di sini
+    fallback   : '🧺',
+    fallbackSub: 'Layanan Cuci & Setrika',
+    hasGallery : true,  galleryIdx: 0,
+    hasVideo   : false, videoUrl  : '',
+  },
+  {
+    title      : 'Ekspres 3 Jam Selesai',
+    desc       : 'Urgent? Kami siap melayani!',
+    photo      : 'assets/images/slides/ekspres.jpg',
+    fallback   : '⚡',
+    fallbackSub: 'Laundry Ekspres',
+    hasGallery : true,  galleryIdx: 1,
+    hasVideo   : false,
+    videoUrl   : 'https://www.youtube.com/embed/GANTI_ID_VIDEO',  // ← ganti ID video
+  },
+  {
+    title      : 'Dry Cleaning Premium',
+    desc       : 'Untuk pakaian spesial Anda',
+    photo      : 'assets/images/slides/dry-cleaning.jpg',
+    fallback   : '👔',
+    fallbackSub: 'Dry Cleaning',
+    hasGallery : false, galleryIdx: -1,
+    hasVideo   : true,
+    videoUrl   : 'https://www.youtube.com/embed/GANTI_ID_VIDEO',
+  },
+  {
+    title      : 'Layanan Antar Jemput',
+    desc       : 'Gratis radius 3km · Hubungi kami!',
+    photo      : 'assets/images/slides/antar-jemput.jpg',
+    fallback   : '🚗',
+    fallbackSub: 'Antar Jemput',
+    hasGallery : true,  galleryIdx: 2,
+    hasVideo   : false, videoUrl  : '',
+  },
+];
+
+const GALLERIES = [
+  {
+    title: '🧺 Galeri Cuci & Setrika',
+    items: [
+      { photo:'assets/images/gallery/cuci/mesin.jpg',    fallback:'🧺', caption:'Mesin Cuci Modern'  },
+      { photo:'assets/images/gallery/cuci/setrika.jpg',  fallback:'👕', caption:'Hasil Setrika Rapi' },
+      { photo:'assets/images/gallery/cuci/deterjen.jpg', fallback:'🫧', caption:'Deterjen Premium'   },
+      { photo:'assets/images/gallery/cuci/bersih.jpg',   fallback:'✨', caption:'Pakaian Bersih'     },
+      { photo:'assets/images/gallery/cuci/proses.jpg',   fallback:'💧', caption:'Proses Pencucian'   },
+      { photo:'assets/images/gallery/cuci/pewangi.jpg',  fallback:'🌸', caption:'Pewangi Spesial'    },
+    ]
+  },
+  {
+    title: '⚡ Galeri Ekspres',
+    items: [
+      { photo:'assets/images/gallery/ekspres/kilat.jpg',   fallback:'⚡', caption:'Super Cepat'   },
+      { photo:'assets/images/gallery/ekspres/waktu.jpg',   fallback:'⏰', caption:'Tepat Waktu'   },
+      { photo:'assets/images/gallery/ekspres/layanan.jpg', fallback:'🏃', caption:'Layanan Kilat' },
+      { photo:'assets/images/gallery/ekspres/kemas.jpg',   fallback:'📦', caption:'Kemas Rapi'    },
+    ]
+  },
+  {
+    title: '🚗 Galeri Antar Jemput',
+    items: [
+      { photo:'assets/images/gallery/antjut/motor.jpg', fallback:'🚗', caption:'Tim Pengantar' },
+      { photo:'assets/images/gallery/antjut/area.jpg',  fallback:'🗺️', caption:'Area Layanan'  },
+      { photo:'assets/images/gallery/antjut/order.jpg', fallback:'📞', caption:'Order via WA'  },
+    ]
+  }
+];
+
+const TICKER_ITEMS = [
+  '🫧 Wisma Laundry — Bersih, Wangi, Tepat Waktu!',
+  '⚡ Ekspres 3 Jam Siap!',
+  '🚗 Gratis Antar Jemput Radius 3km',
+  '💰 Harga mulai Rp 5.000/kg',
+  '🌸 Pewangi Premium Pilihan',
+  '📞 WA: 0812-3456-7890',
+  '⏰ Buka Tiap Hari 07.00 – 21.00',
+  '✨ Kepuasan Pelanggan Prioritas Kami',
+];
+
+/* ════ BUILD SLIDES ════ */
+function buildSlides() {
+  const track = document.getElementById('sliderTrack');
+  const dots  = document.getElementById('dots');
+
+  SLIDES.forEach((s, i) => {
+    const slide = document.createElement('div');
+    slide.className = 'slide';
+    slide.setAttribute('role','listitem');
+
+    // ── Media: foto + fallback emoji ──
+    // Foto ada & berhasil load → tampil (z-index 2, menutupi emoji)
+    // Foto gagal load → img disembunyikan → emoji (z-index 1) terlihat
+    let imgTag = '';
+    if (s.photo) {
+      imgTag = `<img class="slide-photo"
+        src="${s.photo}"
+        alt="${s.title}"
+        loading="${i===0?'eager':'lazy'}"
+        onerror="this.style.display='none'"
+      />`;
+    }
+
+    // Badges
+    let badges = '<div class="slide-badges">';
+    if (s.hasVideo && s.videoUrl)
+      badges += `<button class="sbadge sbadge-video" onclick="openVideo('${s.videoUrl}')">▶️ Video</button>`;
+    if (s.hasGallery && s.galleryIdx >= 0)
+      badges += `<button class="sbadge sbadge-gallery" onclick="openGallery(${s.galleryIdx})">🖼️ Galeri</button>`;
+    badges += '</div>';
+
+    slide.innerHTML = `
+      <div class="slide-media">
+        ${imgTag}
+        <div class="slide-fallback">${s.fallback}<span>${s.fallbackSub}</span></div>
+      </div>
+      ${badges}
+      <div class="slide-overlay">
+        <div class="slide-title">${s.title}</div>
+        <div class="slide-desc">${s.desc}</div>
+      </div>`;
+
+    track.appendChild(slide);
+
+    // Dot
+    const dot = document.createElement('div');
+    dot.className = 'dot' + (i===0?' active':'');
+    dot.setAttribute('role','tab');
+    dot.setAttribute('aria-label',`Slide ${i+1}`);
+    dot.onclick = () => { clearInterval(autoTimer); goSlide(i); startAuto(); };
+    dots.appendChild(dot);
+  });
+}
+
+/* ════ SLIDER ════ */
+let curSlide=0, autoTimer;
+const total = SLIDES.length;
+
+function goSlide(n) {
+  curSlide = (n + total) % total;
+  document.getElementById('sliderTrack').style.transform = `translateX(-${curSlide*100}%)`;
+  document.querySelectorAll('.dot').forEach((d,i) => d.classList.toggle('active', i===curSlide));
+}
+function nextSlide(){ clearInterval(autoTimer); goSlide(curSlide+1); startAuto(); }
+function prevSlide(){ clearInterval(autoTimer); goSlide(curSlide-1); startAuto(); }
+function startAuto(){ autoTimer = setInterval(()=>goSlide(curSlide+1), 4500); }
+
+// Swipe
+(function(){
+  const el=document.getElementById('sliderWrap'); let sx=0,sy=0;
+  el.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY;},{passive:true});
+  el.addEventListener('touchend',e=>{
+    const dx=e.changedTouches[0].clientX-sx, dy=e.changedTouches[0].clientY-sy;
+    if(Math.abs(dx)>Math.abs(dy)&&Math.abs(dx)>40){ dx<0?nextSlide():prevSlide(); }
+  },{passive:true});
+})();
+
+/* ════ TICKER ════ */
+function buildTicker(){
+  const inner=document.getElementById('tickerInner');
+  const txt=TICKER_ITEMS.join('  •  ')+'  •  ';
+  inner.innerHTML=txt+txt;
+}
+
+/* ════ GALLERY ════ */
+function openGallery(idx){
+  const g=GALLERIES[idx];
+  document.getElementById('galleryTitle').textContent=g.title;
+  document.getElementById('galleryGrid').innerHTML=g.items.map(item=>{
+    const img = item.photo
+      ? `<img src="${item.photo}" alt="${item.caption}" loading="lazy" onerror="this.style.display='none'"/>`
+      : '';
+    return `<div class="gal-item"
+      onclick="openLBItem('${item.photo||''}','${item.caption}','${item.fallback}')"
+      role="listitem" aria-label="${item.caption}">
+      ${img}
+      <span class="gal-fallback" aria-hidden="true">${item.fallback}</span>
+    </div>`;
+  }).join('');
+  document.getElementById('galleryModal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeGallery(){
+  document.getElementById('galleryModal').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+/* ════ LIGHTBOX ════ */
+function openLBItem(url, cap, fallback){
+  const esc = s => s.replace(/'/g,"\\'");
+  let content;
+  if(url){
+    content=`<img src="${url}" alt="${cap}"
+      onerror="this.outerHTML='<div style=\\'text-align:center;padding:40px;font-size:6rem;background:linear-gradient(135deg,#e0f7fa,#bae6fd);border-radius:16px;\\'>${fallback}<p style=\\'font-size:1rem;font-weight:800;color:#0c4a6e;margin-top:12px;\\'>${cap}</p></div>'"
+    />`;
+  } else {
+    content=`<div style="text-align:center;padding:40px;font-size:6rem;background:linear-gradient(135deg,#e0f7fa,#bae6fd);border-radius:16px;">
+      ${fallback}<p style="font-size:1rem;font-weight:800;color:#0c4a6e;margin-top:12px;">${cap}</p></div>`;
+  }
+  document.getElementById('lbContent').innerHTML=content;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function openVideo(url){
+  document.getElementById('lbContent').innerHTML=`<iframe src="${url}" allowfullscreen title="Video Wisma Laundry"></iframe>`;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeLB(){
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+/* ════ TOAST ════ */
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.style.opacity='1'; t.style.transform='translateX(-50%) translateY(0)';
+  clearTimeout(t._t);
+  t._t=setTimeout(()=>{t.style.opacity='0';t.style.transform='translateX(-50%) translateY(20px)';},2200);
+}
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){closeLB();closeGallery();}
+  if(e.key==='ArrowLeft') prevSlide();
+  if(e.key==='ArrowRight') nextSlide();
+});
+
+// ── INIT ──
+buildSlides();
+buildTicker();
+startAuto();
+</script>
+</body>
+</html>
